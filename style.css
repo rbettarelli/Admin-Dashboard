@@ -364,23 +364,27 @@ ul li:hover {
   text-decoration: underline;
   cursor: pointer;
   -webkit-transform: scale(1.07);
+  transform: scale(1.07)
 }
 
-.clicable:hover {
+.clickable:hover {
   cursor: pointer;
   -webkit-transform: scale(1.07);
+  transform: scale(1.07);
 
 }
 
 .trendingProfile:hover {
   cursor: pointer;
   -webkit-transform: scale(1.07);
+  transform: scale(1.07);
 
 }
 
 .projectHeading:hover {
   cursor: pointer;
   -webkit-transform: scale(1.01);
+  transform: scale(1.01);
   text-decoration: underline;
 
 
@@ -389,6 +393,7 @@ ul li:hover {
 .annHeading:hover {
   cursor: pointer;
   -webkit-transform: scale(1.01);
+  transform: scale(1.01);
   text-decoration: underline;
 
 }
