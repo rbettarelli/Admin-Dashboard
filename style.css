@@ -1,0 +1,413 @@
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 4fr;
+  height: 100vh;
+}
+
+.header {
+  background-color: white;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  position: relative;
+  box-shadow: 0px 2px 3px rgb(175 175 175);
+ 
+
+}
+
+.topHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 17px 0px 0px 30px;
+}
+
+.searchContainer {
+  display: flex;
+  padding: 17px 0px 0px 30px;
+  
+
+}
+.searchIcon {
+  margin-right: 8px;
+  width: 22px;
+}
+.searchField {
+  border-radius: 15px;
+  padding-left: 10px;
+  width: 45vw;
+  border: none;
+  max-width: 471px;
+  height: 25px;
+  background-color: rgba(226,232,240,255);
+}
+
+.profileContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 20vw;
+  max-width: 196.2px;
+  min-width: 156.2px;
+  margin-right: 25px;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.bottomHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 20px 20px 0px 20px;
+}
+
+.profileDisplay {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.profileItemImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+
+}
+.displayGreeting {
+  display: flex;
+  flex-direction: column;
+}
+.nameGreeting {
+  font-size: 23px;
+}
+
+.profileContainer img {
+  margin-right: 20px;
+}
+.avatarImage {
+  width: 70px;
+  border-radius: 50px;
+  margin-right: 15px;
+}
+
+.bellIcon {
+  width: 22px;
+
+}
+
+
+.hMenu {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 25vw;
+  max-width: 276px;
+  min-width: 263px;
+  margin-bottom: 18px;
+}
+
+.btnHeader { 
+
+  color: white;
+    font-weight: 500;
+    background-color: rgba(25,146,212,255);
+    width: 75px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 5px;
+    margin-right: 10px;
+  
+}
+
+.sidebar {
+  background-color: rgba(25,146,212,255);
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+  padding: 15px 20px 20px 15px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto 1fr;
+  grid-gap: 35px;
+  list-style-type: none;
+
+}
+
+.sidebarTitle{
+  color: white;
+}
+.navLink {
+  color: white;
+  text-decoration: none;
+}
+
+.nav li {
+  padding-bottom: 20px;
+}
+
+.interactions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*projects */
+
+.main {
+  display: grid;
+  background-color: rgba(226, 232, 240, 255);
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 30px 20px 40px 20px;
+  max-height: 100%;
+}
+
+.projectDisplay {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+  margin-right: 20px;
+}
+
+.projectHeader {
+  font-weight: 500;
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+
+.projectContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.project {
+  background-color: white;
+  width: 48%;
+  height: 180px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  min-width: 265px;
+  box-shadow: 0px 2px 3px rgb(175, 175, 175);
+  padding: 30px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: linear-gradient(
+    left,
+    #f3b42c,
+    #f3b42c 2%,
+    transparent 2%,
+    transparent 100%
+  );
+  background-image: -webkit-linear-gradient(
+    left,
+    #f3b42c,
+    #f3b42c 2%,
+    transparent 2%,
+    transparent 100%
+  );
+}
+
+.projectHeading {
+  font-weight: 1000;
+  font-size: 16px;
+  margin-bottom: 10px;
+
+}
+
+.projectDescription {
+  font-size: 13px;
+  color: rgb(88, 88, 88);
+}
+
+.interactions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+.interactOption {
+  width: 24px;
+  height: 24px;
+}
+
+.annSection {
+  grid-column: 2 / 3;
+  grid-row:  1 / 2;
+  padding-bottom: 10px;
+}
+
+.annSectionHeading {
+ font-weight: 500;
+ font-size: 19px;
+ margin-bottom: 10px;
+}
+
+.annContainer {
+  background-color: white;
+  box-shadow: 0px 2px 3px rgb(175 175 175);
+  padding: 20px 20px 20px 25px;
+  border-radius: 5px;
+  min-width: 231px;
+  
+}
+hr {
+  margin: 15px 0 15px 0;
+}
+
+.annHeading {
+  font-weight: 500;
+  font-size: 13px;
+  margin-bottom: 3px;
+}
+
+.annDescription {
+  font-size: 11px;
+  color: rgb(88, 88, 88);
+
+}
+
+
+.trendingProfile {
+
+  grid-column: 2 /3;
+  grid-row: 2 / 3;
+  
+}
+.headingTrending {
+  font-weight: 500;
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+
+.trandingContainer {
+  background-color: white;
+  box-shadow: 0px 2px 3px rgb(175 175 175);
+  padding: 20px 20px 06px 25px;
+  border-radius: 5px;
+  min-width: 230px;
+
+}
+
+.trendingProfileSection {
+
+  grid-column: 2/3;
+  grid-row: 2/3;
+
+}
+
+.trendingProfile {
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+
+}
+
+
+.profilePicImage {
+
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  border: 1px solid rgb(197, 197, 197);
+}
+
+.sidebarTitle {
+  grid-row: 1 /2 ;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+
+}
+
+.dashImage {
+  width: 43px;
+  padding-right: 8px;
+}
+
+.navBar {
+  grid-row: 2 / 3;
+}
+
+.nav {
+  list-style-type: none;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.simpleIcon {
+  width: 20px;
+  margin-right: 20px;
+}
+
+
+ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  -webkit-transform: scale(1.07);
+}
+
+.clicable:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.07);
+
+}
+
+.trendingProfile:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.07);
+
+}
+
+.projectHeading:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.01);
+  text-decoration: underline;
+
+
+}
+
+.annHeading:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.01);
+  text-decoration: underline;
+
+}
+
+@media (max-width: 1052px) {
+  .project {
+    width: 100%;
+    height: 140px;
+  }
+  .trendingProfileSection {
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+  }
+  .main{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 320px 320px 400px;
+    padding: 30px 20px 40px 20px;
+    max-height: 100%;
+  }
+}
